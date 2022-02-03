@@ -2,7 +2,7 @@ package com.example.mvvmbasics.data
 
 class FakeDatabase private constructor() {
 
-    val quoteDao = FakeDatabase()
+    val quoteDao = FakeQuoteDao()
 
     companion object {
         @Volatile private var instance: FakeDatabase? = null
